@@ -25,7 +25,7 @@ function bonusScore(input){
 
     if(num % 2 === 0){
         bonus = bonus + 1;
-    } else if (num % 5 === 0) {
+    } else if (num % 10 === 5) {
         bonus = bonus + 2;
     }
 
