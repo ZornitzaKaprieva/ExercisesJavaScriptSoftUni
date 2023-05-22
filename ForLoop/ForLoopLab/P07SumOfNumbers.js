@@ -5,14 +5,17 @@ function sumOfNumbers(string) {
   let n = string[0];
   let sum = 0;
 
-  for (let i = 0; i <= n.length; i++) {
+  for (let i = 0; i < n.length; i++) {
     sum = sum + Number(n.charAt(i));
+
+    // let currentNum = Number(n[i]);
+    // sum += currentNum;
   }
 
   console.log(`The sum of the digits is:${sum}`);
 }
 
-sumOfNumbers(["564891"]);
+sumOfNumbers(["12345"]);
 
 //Solution 2:
 function sumOfNumbersN(number) {
