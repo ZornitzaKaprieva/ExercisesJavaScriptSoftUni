@@ -14,6 +14,7 @@
 // •	В противен случай след проверката на конзолата се изписва остатъкът от заплатата (да се изпише като цяло число).
 
 function salary(input) {
+  
   let openTabs = Number(input[0]);
   let salary = Number(input[1]);
 
