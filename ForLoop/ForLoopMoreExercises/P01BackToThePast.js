@@ -25,7 +25,6 @@ function backToThePast(input) {
     } else {
       spend += 12000 + age * 50;
     }
-
     age++;
   }
 
