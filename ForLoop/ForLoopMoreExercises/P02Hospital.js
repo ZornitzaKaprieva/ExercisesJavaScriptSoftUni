@@ -35,7 +35,6 @@ function hospital(input) {
       untreatedPatients += 0;
     }
   }
-
   console.log(`Treated patients: ${treatedPatients}.`);
   console.log(`Untreated patients: ${untreatedPatients}.`);
 }
