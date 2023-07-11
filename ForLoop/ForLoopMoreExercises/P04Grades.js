@@ -38,10 +38,6 @@ function grades(input) {
     } else if (grade >= 5) {
       students5PlusCount++;
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> 1402e7e2987faf543c0c8e0e7f841790a9533629
   }
 
   let percentStudents5Plus = (students5PlusCount / numStudents) * 100;
