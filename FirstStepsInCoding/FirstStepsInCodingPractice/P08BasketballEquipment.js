@@ -26,7 +26,7 @@ function basketballEquipment(input){
 
     let expenses = sneakers +  outfit + ball + accessories + annualFee;
 
-    console.log(expenses);
+    console.log(expenses.toFixed(2));
 
 }
 
