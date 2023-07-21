@@ -6,7 +6,7 @@ function passwordGuess(input){
 
     let pass = input[0];
 
-    let correctpPass = "s3cr3t!P@ssw0rd"
+    let correctpPass = "s3cr3t!P@ssw0rd";
 
     if(pass === correctpPass){
         console.log("Welcome")
@@ -15,4 +15,4 @@ function passwordGuess(input){
     }
 }
 
-passwordGuess(["s3cr3t!P@ssw0rd"])
+passwordGuess(["s3cr3t!P@ssw0rd"]);
