@@ -10,4 +10,4 @@ Experience with:
 • console (input and output of data); 
 • simple calculations; 
 • conditional operators and logical checks (if, if-else, switch); 
-• loops and complex loops (for loop, while loop, nested loops).  
+• loops and complex loops (for loop, while loop, nested loops). 
