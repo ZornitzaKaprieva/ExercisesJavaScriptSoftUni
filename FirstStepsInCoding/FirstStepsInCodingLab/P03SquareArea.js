@@ -1,12 +1,10 @@
-// Да се напише функция, която получава цяло число 
-//и пресмята лицето на квадрат дадената страна. 
+// Да се напише функция, която получава цяло число
+//и пресмята лицето на квадрат дадената страна.
 
-function squareArea(input){
+function squareArea(input) {
+  let a = Number(input[0]);
 
-    let a = Number(input[0]);
-
-    console.log(a * a);
-
+  console.log(a * a);
 }
 
 squareArea("5");
