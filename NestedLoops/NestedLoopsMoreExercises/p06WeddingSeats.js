@@ -14,13 +14,11 @@
 // {сектор}{ред}{място}
 // Накрая трябва да отпечата броя на всички места.
 
-
 function weddingSeats (input){
     let lastSector = input.shift();
     let initialRowNum = Number(input.shift());
     let seatOddNum = Number(input.shift());
 
-    
     let firstSector = 'A';
     let firstCharNum = 'a'.charCodeAt(0);
     let totalSeats = 0;
